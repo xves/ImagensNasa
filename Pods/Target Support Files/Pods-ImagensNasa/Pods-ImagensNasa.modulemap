@@ -1,0 +1,6 @@
+framework module Pods_ImagensNasa {
+  umbrella header "Pods-ImagensNasa-umbrella.h"
+
+  export *
+  module * { export * }
+}

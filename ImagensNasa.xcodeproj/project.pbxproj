@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10FE4BDA5A87779894E78134 /* Pods_ImagensNasa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56D0AC8C9A9CF6A81C68F71 /* Pods_ImagensNasa.framework */; };
+		B900FAB0C25228E0942CA878 /* Pods_ImagensNasa_ImagensNasaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E584B11E21E690308072810 /* Pods_ImagensNasa_ImagensNasaUITests.framework */; };
+		BDDDB920018812CD6F76BF29 /* Pods_ImagensNasaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C00A45EE26BA06829421087 /* Pods_ImagensNasaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECCAF26C2D4C48FB00F20A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCAF24A2D4C48FA00F20A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCAF2512D4C48FA00F20A64;
+			remoteInfo = ImagensNasa;
+		};
+		ECCAF2762D4C48FB00F20A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCAF24A2D4C48FA00F20A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCAF2512D4C48FA00F20A64;
+			remoteInfo = ImagensNasa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0432DDE891658876A2AAEB55 /* Pods-ImagensNasaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagensNasaTests.release.xcconfig"; path = "Target Support Files/Pods-ImagensNasaTests/Pods-ImagensNasaTests.release.xcconfig"; sourceTree = "<group>"; };
+		1AC6A4BFD738CCA245951FE5 /* Pods-ImagensNasa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagensNasa.release.xcconfig"; path = "Target Support Files/Pods-ImagensNasa/Pods-ImagensNasa.release.xcconfig"; sourceTree = "<group>"; };
+		211C220BC6DBA267E41EFB09 /* Pods-ImagensNasa-ImagensNasaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagensNasa-ImagensNasaUITests.release.xcconfig"; path = "Target Support Files/Pods-ImagensNasa-ImagensNasaUITests/Pods-ImagensNasa-ImagensNasaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4C00A45EE26BA06829421087 /* Pods_ImagensNasaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImagensNasaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8489ACCBCB70C60EF6F331E3 /* Pods-ImagensNasa-ImagensNasaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagensNasa-ImagensNasaUITests.debug.xcconfig"; path = "Target Support Files/Pods-ImagensNasa-ImagensNasaUITests/Pods-ImagensNasa-ImagensNasaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E584B11E21E690308072810 /* Pods_ImagensNasa_ImagensNasaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImagensNasa_ImagensNasaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56D0AC8C9A9CF6A81C68F71 /* Pods_ImagensNasa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImagensNasa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A21D94D736A65E001FDF55 /* Pods-ImagensNasaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagensNasaTests.debug.xcconfig"; path = "Target Support Files/Pods-ImagensNasaTests/Pods-ImagensNasaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB190F94D649A68367CD3CEB /* Pods-ImagensNasa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagensNasa.debug.xcconfig"; path = "Target Support Files/Pods-ImagensNasa/Pods-ImagensNasa.debug.xcconfig"; sourceTree = "<group>"; };
+		ECCAF2522D4C48FA00F20A64 /* ImagensNasa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagensNasa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCAF26B2D4C48FB00F20A64 /* ImagensNasaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagensNasaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCAF2752D4C48FB00F20A64 /* ImagensNasaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagensNasaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		ECCAF27D2D4C48FB00F20A64 /* Exceptions for "ImagensNasa" folder in "ImagensNasa" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = ECCAF2512D4C48FA00F20A64 /* ImagensNasa */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ECCAF2542D4C48FA00F20A64 /* ImagensNasa */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				ECCAF27D2D4C48FB00F20A64 /* Exceptions for "ImagensNasa" folder in "ImagensNasa" target */,
+			);
+			path = ImagensNasa;
+			sourceTree = "<group>";
+		};
+		ECCAF26E2D4C48FB00F20A64 /* ImagensNasaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ImagensNasaTests;
+			sourceTree = "<group>";
+		};
+		ECCAF2782D4C48FB00F20A64 /* ImagensNasaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ImagensNasaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECCAF24F2D4C48FA00F20A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FE4BDA5A87779894E78134 /* Pods_ImagensNasa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCAF2682D4C48FB00F20A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDDB920018812CD6F76BF29 /* Pods_ImagensNasaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCAF2722D4C48FB00F20A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B900FAB0C25228E0942CA878 /* Pods_ImagensNasa_ImagensNasaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEC37ECF609CB6FCC51650AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB190F94D649A68367CD3CEB /* Pods-ImagensNasa.debug.xcconfig */,
+				1AC6A4BFD738CCA245951FE5 /* Pods-ImagensNasa.release.xcconfig */,
+				8489ACCBCB70C60EF6F331E3 /* Pods-ImagensNasa-ImagensNasaUITests.debug.xcconfig */,
+				211C220BC6DBA267E41EFB09 /* Pods-ImagensNasa-ImagensNasaUITests.release.xcconfig */,
+				A6A21D94D736A65E001FDF55 /* Pods-ImagensNasaTests.debug.xcconfig */,
+				0432DDE891658876A2AAEB55 /* Pods-ImagensNasaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE08F20F7EE194FBF65F1EB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A56D0AC8C9A9CF6A81C68F71 /* Pods_ImagensNasa.framework */,
+				8E584B11E21E690308072810 /* Pods_ImagensNasa_ImagensNasaUITests.framework */,
+				4C00A45EE26BA06829421087 /* Pods_ImagensNasaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECCAF2492D4C48FA00F20A64 = {
+			isa = PBXGroup;
+			children = (
+				ECCAF2542D4C48FA00F20A64 /* ImagensNasa */,
+				ECCAF26E2D4C48FB00F20A64 /* ImagensNasaTests */,
+				ECCAF2782D4C48FB00F20A64 /* ImagensNasaUITests */,
+				ECCAF2532D4C48FA00F20A64 /* Products */,
+				BEC37ECF609CB6FCC51650AE /* Pods */,
+				DE08F20F7EE194FBF65F1EB9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECCAF2532D4C48FA00F20A64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECCAF2522D4C48FA00F20A64 /* ImagensNasa.app */,
+				ECCAF26B2D4C48FB00F20A64 /* ImagensNasaTests.xctest */,
+				ECCAF2752D4C48FB00F20A64 /* ImagensNasaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECCAF2512D4C48FA00F20A64 /* ImagensNasa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCAF27E2D4C48FB00F20A64 /* Build configuration list for PBXNativeTarget "ImagensNasa" */;
+			buildPhases = (
+				7D37CA727CE2CB7CD79C6244 /* [CP] Check Pods Manifest.lock */,
+				ECCAF24E2D4C48FA00F20A64 /* Sources */,
+				ECCAF24F2D4C48FA00F20A64 /* Frameworks */,
+				ECCAF2502D4C48FA00F20A64 /* Resources */,
+				5656C8924C238D15899B1390 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ECCAF2542D4C48FA00F20A64 /* ImagensNasa */,
+			);
+			name = ImagensNasa;
+			productName = ImagensNasa;
+			productReference = ECCAF2522D4C48FA00F20A64 /* ImagensNasa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECCAF26A2D4C48FB00F20A64 /* ImagensNasaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCAF2832D4C48FB00F20A64 /* Build configuration list for PBXNativeTarget "ImagensNasaTests" */;
+			buildPhases = (
+				35EA149FD3D87A37D491CC63 /* [CP] Check Pods Manifest.lock */,
+				ECCAF2672D4C48FB00F20A64 /* Sources */,
+				ECCAF2682D4C48FB00F20A64 /* Frameworks */,
+				ECCAF2692D4C48FB00F20A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCAF26D2D4C48FB00F20A64 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ECCAF26E2D4C48FB00F20A64 /* ImagensNasaTests */,
+			);
+			name = ImagensNasaTests;
+			productName = ImagensNasaTests;
+			productReference = ECCAF26B2D4C48FB00F20A64 /* ImagensNasaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECCAF2742D4C48FB00F20A64 /* ImagensNasaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCAF2862D4C48FB00F20A64 /* Build configuration list for PBXNativeTarget "ImagensNasaUITests" */;
+			buildPhases = (
+				329394A37BE71BF2DBFA6527 /* [CP] Check Pods Manifest.lock */,
+				ECCAF2712D4C48FB00F20A64 /* Sources */,
+				ECCAF2722D4C48FB00F20A64 /* Frameworks */,
+				ECCAF2732D4C48FB00F20A64 /* Resources */,
+				39B83FCB9CFA3DACA8091989 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCAF2772D4C48FB00F20A64 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ECCAF2782D4C48FB00F20A64 /* ImagensNasaUITests */,
+			);
+			name = ImagensNasaUITests;
+			productName = ImagensNasaUITests;
+			productReference = ECCAF2752D4C48FB00F20A64 /* ImagensNasaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECCAF24A2D4C48FA00F20A64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					ECCAF2512D4C48FA00F20A64 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					ECCAF26A2D4C48FB00F20A64 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = ECCAF2512D4C48FA00F20A64;
+					};
+					ECCAF2742D4C48FB00F20A64 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = ECCAF2512D4C48FA00F20A64;
+					};
+				};
+			};
+			buildConfigurationList = ECCAF24D2D4C48FA00F20A64 /* Build configuration list for PBXProject "ImagensNasa" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECCAF2492D4C48FA00F20A64;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ECCAF2532D4C48FA00F20A64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECCAF2512D4C48FA00F20A64 /* ImagensNasa */,
+				ECCAF26A2D4C48FB00F20A64 /* ImagensNasaTests */,
+				ECCAF2742D4C48FB00F20A64 /* ImagensNasaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECCAF2502D4C48FA00F20A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCAF2692D4C48FB00F20A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCAF2732D4C48FB00F20A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		329394A37BE71BF2DBFA6527 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImagensNasa-ImagensNasaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35EA149FD3D87A37D491CC63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImagensNasaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39B83FCB9CFA3DACA8091989 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImagensNasa-ImagensNasaUITests/Pods-ImagensNasa-ImagensNasaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImagensNasa-ImagensNasaUITests/Pods-ImagensNasa-ImagensNasaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ImagensNasa-ImagensNasaUITests/Pods-ImagensNasa-ImagensNasaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5656C8924C238D15899B1390 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImagensNasa/Pods-ImagensNasa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImagensNasa/Pods-ImagensNasa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ImagensNasa/Pods-ImagensNasa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D37CA727CE2CB7CD79C6244 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImagensNasa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECCAF24E2D4C48FA00F20A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCAF2672D4C48FB00F20A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCAF2712D4C48FB00F20A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECCAF26D2D4C48FB00F20A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECCAF2512D4C48FA00F20A64 /* ImagensNasa */;
+			targetProxy = ECCAF26C2D4C48FB00F20A64 /* PBXContainerItemProxy */;
+		};
+		ECCAF2772D4C48FB00F20A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECCAF2512D4C48FA00F20A64 /* ImagensNasa */;
+			targetProxy = ECCAF2762D4C48FB00F20A64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ECCAF27F2D4C48FB00F20A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB190F94D649A68367CD3CEB /* Pods-ImagensNasa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W5C2JC9SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImagensNasa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xves.ImagensNasa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECCAF2802D4C48FB00F20A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AC6A4BFD738CCA245951FE5 /* Pods-ImagensNasa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W5C2JC9SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImagensNasa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xves.ImagensNasa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECCAF2812D4C48FB00F20A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECCAF2822D4C48FB00F20A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECCAF2842D4C48FB00F20A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A21D94D736A65E001FDF55 /* Pods-ImagensNasaTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W5C2JC9SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xves.ImagensNasaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImagensNasa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImagensNasa";
+			};
+			name = Debug;
+		};
+		ECCAF2852D4C48FB00F20A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0432DDE891658876A2AAEB55 /* Pods-ImagensNasaTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W5C2JC9SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xves.ImagensNasaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImagensNasa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImagensNasa";
+			};
+			name = Release;
+		};
+		ECCAF2872D4C48FB00F20A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8489ACCBCB70C60EF6F331E3 /* Pods-ImagensNasa-ImagensNasaUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W5C2JC9SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xves.ImagensNasaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImagensNasa;
+			};
+			name = Debug;
+		};
+		ECCAF2882D4C48FB00F20A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 211C220BC6DBA267E41EFB09 /* Pods-ImagensNasa-ImagensNasaUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W5C2JC9SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xves.ImagensNasaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImagensNasa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECCAF24D2D4C48FA00F20A64 /* Build configuration list for PBXProject "ImagensNasa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCAF2812D4C48FB00F20A64 /* Debug */,
+				ECCAF2822D4C48FB00F20A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCAF27E2D4C48FB00F20A64 /* Build configuration list for PBXNativeTarget "ImagensNasa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCAF27F2D4C48FB00F20A64 /* Debug */,
+				ECCAF2802D4C48FB00F20A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCAF2832D4C48FB00F20A64 /* Build configuration list for PBXNativeTarget "ImagensNasaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCAF2842D4C48FB00F20A64 /* Debug */,
+				ECCAF2852D4C48FB00F20A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCAF2862D4C48FB00F20A64 /* Build configuration list for PBXNativeTarget "ImagensNasaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCAF2872D4C48FB00F20A64 /* Debug */,
+				ECCAF2882D4C48FB00F20A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECCAF24A2D4C48FA00F20A64 /* Project object */;
+}
